@@ -28,7 +28,6 @@ public class Login extends HttpServlet{
 		
 		try(Connection con = new ConnectionPool().getConnection()){
 			Usuario user = new UsuarioDAO(con).buscaPorEmailESenha(email, senha);
-			
 			if(user == null){
 				escritor.println("<!DOCTYPE html><html><body>Usuário Inválido!</body></html>");
 			} else {

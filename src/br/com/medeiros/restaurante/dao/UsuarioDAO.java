@@ -46,7 +46,8 @@ public class UsuarioDAO {
 					String codigo = rs.getString("Codigo");
 					String nome = rs.getString("Nome");
 					String sexo = rs.getString("Sexo");
-					user = new Usuario(codigo, nome, sexo, email, senha);
+					String telefone = rs.getString("Telefone");
+					user = new Usuario(codigo, nome, sexo, email, senha, telefone);
 				}
 			}
 		}

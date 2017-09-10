@@ -33,7 +33,7 @@
 					<li><a href="#">PASTÉIS DOCES</a></li>
 				</ul>
 			</li>
-			<li><a href="executa?tarefa=ListarLanches">LANCHES</a></li>
+			<li><a href="listar-lanches">LANCHES</a></li>
 			<li class="helper"><a href="executa?tarefa=ListarDemaisPratos">DEMAIS PRATOS</a>
 			
 				<ul class="submenu esconder">

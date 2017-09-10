@@ -25,6 +25,11 @@ public class Usuario {
 		this.telefone = telefone;
 	}
 
+	@Override
+	public String toString() {
+		return "Cpf: " + this.cpf + " Nome: " + this.nome + " Sexo: " + this.sexo + " Email: " + this.email + " Senha: " + this.senha + " Telefone: " + this.telefone;
+	}
+	
 	public String getCpf() {
 		return cpf;
 	}
